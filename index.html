@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Roman Yosi Music</title>
+
+<style>
+
+body{
+    margin:0;
+    background:#000;
+    color:white;
+    font-family:Arial, sans-serif;
+}
+
+header{
+    background:linear-gradient(180deg,#111,#000);
+    padding:40px 20px;
+}
+
+.container{
+    max-width:1100px;
+    margin:auto;
+}
+
+.profile{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    gap:30px;
+}
+
+.profile img{
+    width:220px;
+    height:220px;
+    border-radius:50%;
+    object-fit:cover;
+    border:4px solid #1DB954;
+}
+
+.info h1{
+    font-size:60px;
+    margin:0;
+}
+
+.verify{
+    background:#1DA1F2;
+    padding:5px 12px;
+    border-radius:50px;
+    font-size:16px;
+    margin-left:10px;
+}
+
+.bio{
+    color:#cfcfcf;
+    margin-top:15px;
+    line-height:1.7;
+    font-size:18px;
+}
+
+.play-btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:14px 30px;
+    background:#1DB954;
+    color:black;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.section{
+    padding:40px 20px;
+}
+
+.card{
+    background:#111;
+    border-radius:20px;
+    padding:20px;
+    margin-top:20px;
+}
+
+.music-player{
+    width:100%;
+    margin-top:20px;
+}
+
+.socials{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+    margin-top:30px;
+}
+
+.social{
+    background:#111;
+    padding:25px;
+    border-radius:20px;
+    text-align:center;
+}
+
+.social h3{
+    margin-top:10px;
+}
+
+.social a{
+    color:#1DB954;
+    text-decoration:none;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    color:#888;
+    border-top:1px solid #222;
+}
+
+.song-list{
+    margin-top:20px;
+}
+
+.song{
+    background:#181818;
+    padding:15px;
+    border-radius:15px;
+    margin-bottom:15px;
+}
+
+.song h4{
+    margin:0 0 10px 0;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="container">
+
+<div class="profile">
+
+<img src="https://i.imgur.com/2DhmtJ4.jpeg" alt="Roman Yosi">
+
+<div class="info">
+
+<h1>
+Roman Yosi
+<span class="verify">✔ Verified</span>
+</h1>
+
+<div class="bio">
+Musisi • Pencipta Lagu • Kreator Konten <br>
+Roman Yosi Music Indonesia 🎵
+</div>
+
+<a class="play-btn" href="#">▶ Putar Musik</a>
+
+</div>
+</div>
+</div>
+</header>
+
+<section class="section">
+<div class="container">
+
+<h2>🎧 Pemutar Musik</h2>
+
+<div class="card">
+
+<h3>Persinggahan Semu</h3>
+
+<audio class="music-player" controls>
+<source src="musik.mp3" type="audio/mpeg">
+Browser kamu tidak mendukung audio.
+</audio>
+
+</div>
+
+<div class="song-list">
+
+<div class="song">
+<h4>Suara Dalam Otak</h4>
+
+<audio class="music-player" controls>
+<source src="musik2.mp3" type="audio/mpeg">
+</audio>
+</div>
+
+<div class="song">
+<h4>Ternyata Dia Cinta Tersembunyi</h4>
+
+<audio class="music-player" controls>
+<source src="musik3.mp3" type="audio/mpeg">
+</audio>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section class="section">
+<div class="container">
+
+<h2>🔥 Tentang Roman Yosi</h2>
+
+<div class="card">
+Roman Yosi adalah artis musik independen Indonesia yang membuat karya original dengan nuansa emosional, misteri, dan perjalanan hidup nyata.
+</div>
+
+</div>
+</section>
+
+<section class="section">
+<div class="container">
+
+<h2>📱 Ikuti Roman Yosi</h2>
+
+<div class="socials">
+
+<div class="social">
+<h3>Instagram</h3>
+<p>@kromantv1</p>
+<a href="https://instagram.com/kromantv1">Buka Instagram</a>
+</div>
+
+<div class="social">
+<h3>TikTok</h3>
+<p>@romanyosi</p>
+<a href="https://tiktok.com/@romanyosi">Buka TikTok</a>
+</div>
+
+<div class="social">
+<h3>YouTube</h3>
+<p>Roman Yosi</p>
+<a href="https://youtube.com/@romanyosi">Buka YouTube</a>
+</div>
+
+<div class="social">
+<h3>Spotify</h3>
+<p>Roman Yosi</p>
+<a href="#">Buka Spotify</a>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<footer>
+© 2026 Roman Yosi Music — All Rights Reserved
+</footer>
+
+</body>
+</html>
